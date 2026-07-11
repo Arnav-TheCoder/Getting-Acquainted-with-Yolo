@@ -1,0 +1,1 @@
+MODEL folder will have the downloaded .pt file of the YOLO model.
