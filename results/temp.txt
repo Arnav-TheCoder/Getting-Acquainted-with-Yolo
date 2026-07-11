@@ -1,0 +1,1 @@
+RESULTS folder consists of images with all indications of detected objects.
