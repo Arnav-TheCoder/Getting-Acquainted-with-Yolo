@@ -1,0 +1,16 @@
+# Virtual environment
+.venv/
+
+# PyCharm
+.idea/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Generated images
+Image_detection_app/uploads/
+Image_detection_app/results/
+
+# YOLO model weights
+model/*.pt
