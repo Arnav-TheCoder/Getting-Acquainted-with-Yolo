@@ -1,19 +1,6 @@
 # Getting-Acquainted-with-Yolo
-<a id="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+`<a id="readme-top">`{=html}`</a>`{=html}
 
 ![Contributors](https://img.shields.io/github/contributors/Arnav-TheCoder/Getting-Acquainted-with-Yolo.svg?style=for-the-badge)
 ![Forks](https://img.shields.io/github/forks/Arnav-TheCoder/Getting-Acquainted-with-Yolo.svg?style=for-the-badge)
@@ -22,114 +9,208 @@
 ![project_license](https://img.shields.io/github/license/Arnav-TheCoder/Getting-Acquainted-with-Yolo.svg?style=for-the-badge)
 ![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555)
 
-<!-- PROJECT LOGO -->
-<br />
-<h3 align="center">Getting-Acquainted-with-Yolo</h3>
+`<br />`{=html}
+```{=html}
+<h3 align="center">
+```
+Getting-Acquainted-with-Yolo
+```{=html}
+</h3>
+```
+```{=html}
 <p align="center">
-    Beginner project to understand the working of YOLO model(s).
-    <br />
-    <a href="https://github.com/Arnav-TheCoder/Getting-Acquainted-with-Yolo"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/Arnav-TheCoder/Getting-Acquainted-with-Yolo">View Demo</a>
-    &middot;
-    <a href="https://github.com/Arnav-TheCoder/Getting-Acquainted-with-Yolo/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    &middot;
-    <a href="https://github.com/Arnav-TheCoder/Getting-Acquainted-with-Yolo/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
-  </p>
-</div>
+```
+A growing collection of practical projects to learn and explore the YOLO
+family of object detection models. `<br />`{=html}
+`<a href="https://github.com/Arnav-TheCoder/Getting-Acquainted-with-Yolo">`{=html}`<strong>`{=html}Explore
+the docs »`</strong>`{=html}`</a>`{=html} `<br />`{=html}`<br />`{=html}
+`<a href="https://github.com/Arnav-TheCoder/Getting-Acquainted-with-Yolo">`{=html}View
+Repository`</a>`{=html} ·
+`<a href="https://github.com/Arnav-TheCoder/Getting-Acquainted-with-Yolo/issues/new?labels=bug&template=bug-report---.md">`{=html}Report
+Bug`</a>`{=html} ·
+`<a href="https://github.com/Arnav-TheCoder/Getting-Acquainted-with-Yolo/issues/new?labels=enhancement&template=feature-request---.md">`{=html}Request
+Feature`</a>`{=html}
+```{=html}
+</p>
+```
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+------------------------------------------------------------------------
 
-<!-- ABOUT THE PROJECT -->
-### About The Project
-<!--![Product Name Screen Shot](images/screenshot.png)-->
-The Getting-Acquainted-with-YOLO project is a web-based application that performs real-time object detection using the YOLO10x (/YOLO11x/YOLO26x) model. Built with Python, Flask, HTML, and CSS, it allows users to upload an image through a browser interface, where the model detects and classifies multiple objects while drawing accurate bounding boxes around them. The application processes images efficiently and displays the detected objects with their confidence scores. Designed to run on localhost, the project demonstrates the practical implementation of deep learning and computer vision techniques for automated image analysis. It highlights skills in AI model integration, web development, and object detection.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Table of Contents
+
+-   About The Project
+-   Built With
+-   Getting Started
+-   Usage
+-   Learning Roadmap
+-   Contributing
+-   Contact
+-   Acknowledgments
+
+------------------------------------------------------------------------
+
+## About The Project
+
+**Getting-Acquainted-with-YOLO** is a learning-oriented repository built
+to explore the YOLO (You Only Look Once) family of object detection
+models through practical, hands-on applications.
+
+Instead of focusing on a single application, this repository is intended
+to grow into a collection of progressively more advanced projects
+demonstrating how YOLO can be integrated into computer vision workflows
+using Python, Flask, OpenCV and modern web technologies.
+
+The objective is to understand not only how YOLO performs inference, but
+also how complete AI-powered applications are designed and deployed.
+
+### Current Progress
+
+### ✅ Image Detection Application (Completed)
+
+The first application in this repository provides:
+
+-   Browser-based image upload
+-   Object detection using YOLO10x
+-   Bounding box visualization
+-   Confidence score display
+-   Bounding box coordinate display
+-   Original and detected image comparison
+
+This application serves as the foundation for the remaining projects.
+
+------------------------------------------------------------------------
 
 ## Built With
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+-   Python
+-   Flask
+-   HTML / CSS
+-   OpenCV
+-   Ultralytics YOLO
 
-![HTML](https://img.shields.io/badge/HTML/CSS-CB3837?style=for-the-badge&logo=html5&logoColor=white)
+------------------------------------------------------------------------
 
-![FLASK](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white)
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Repository Structure
 
-<!-- GETTING STARTED -->
-### Getting Started
+``` text
+Getting-Acquainted-with-Yolo
+│
+├── Image_detection_app/
+│   ├── app.py
+│   ├── templates/
+│   ├── static/
+│   ├── uploads/
+│   └── results/
+│
+├── model/
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
 
-## Prerequisites
+------------------------------------------------------------------------
 
-We utilised VS Code, however you can use your editor of choice.
+## Getting Started
 
-## Installation
+### Prerequisites
 
-Running the code, installs the models automatically into a folder named "models"
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+-   Python 3.10+
+-   Git
+-   Any Python IDE (VS Code, PyCharm, etc.)
 
-<!-- USAGE EXAMPLES -->
-### Usage
-For detection of objects, people and animals in images.
+### Installation
 
-For us, it was understanding how to use YOLO.
+``` bash
+git clone https://github.com/Arnav-TheCoder/Getting-Acquainted-with-Yolo.git
+cd Getting-Acquainted-with-Yolo
+pip install -r requirements.txt
+```
 
-For more examples, please refer to the Documentation
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+The required YOLO model weights will automatically download the first
+time the application is executed.
 
-<!-- CONTRIBUTING -->
-### Contributing
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+------------------------------------------------------------------------
 
-Don't forget to give the project a star! Thanks again!
+## Usage
 
-* Fork the Project
-* Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-* Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-* Push to the Branch (`git push origin feature/AmazingFeature`)
-* Open a Pull Request
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Currently the repository contains the **Image Detection Application**.
+
+Run:
+
+``` bash
+python Image_detection_app/app.py
+```
+
+Open:
+
+``` text
+http://127.0.0.1:5000
+```
+
+Upload an image and the application will detect objects, draw bounding
+boxes, and display confidence scores.
+
+------------------------------------------------------------------------
+
+## Learning Roadmap
+
+  Application                Status
+  -------------------------- ----------------
+  Image Detection            ✅ Completed
+  Webcam Detection           🚧 In Progress
+  Video Detection            ⏳ Planned
+  Object Tracking            ⏳ Planned
+  YOLO Model Comparison      ⏳ Planned
+  Performance Benchmarking   ⏳ Planned
+
+------------------------------------------------------------------------
+
+## Contributing
+
+Contributions are welcome! Feel free to:
+
+-   Fork the repository
+-   Create a feature branch
+-   Commit your changes
+-   Open a Pull Request
+-   Report bugs
+-   Suggest new YOLO projects
+
+Don't forget to leave a ⭐ if you found this repository useful.
+
 Top contributors:
 
-<a href="https://github.com/Arnav-TheCoder/Getting-Acquainted-with-Yolo/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Arnav-TheCoder/Getting-Acquainted-with-Yolo" alt="contrib.rocks image" />
-</a>
+`<a href="https://github.com/Arnav-TheCoder/Getting-Acquainted-with-Yolo/graphs/contributors">`{=html}
+`<img src="https://contrib.rocks/image?repo=Arnav-TheCoder/Getting-Acquainted-with-Yolo" alt="contributors"/>`{=html}
+`</a>`{=html}
 
-<!-- CONTACT -->
-### Contact
-Arnav Ray - arnavr.5610@gmail.com
+------------------------------------------------------------------------
 
-Project Link: https://github.com/Arnav-TheCoder/Getting-Acquainted-with-Yolo
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Contact
 
-<!-- ACKNOWLEDGMENTS -->
-### Acknowledgments
-[]()
-[]()
-[]()
+**Arnav Ray**\
+arnavr.5610@gmail.com
+
+Project Link:
+https://github.com/Arnav-TheCoder/Getting-Acquainted-with-Yolo
+
+------------------------------------------------------------------------
+
+## Acknowledgments
+
+-   Ultralytics YOLO
+-   Flask
+-   OpenCV
+-   Python Community
+
+```{=html}
+<p align="right">
+```
+(`<a href="#readme-top">`{=html}back to top`</a>`{=html})
+```{=html}
+</p>
+```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
