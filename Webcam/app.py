@@ -5,13 +5,14 @@ import cv2
 app = Flask(__name__)
 camera = cv2.VideoCapture(0)
 print("Loading YOLO model...")
-model = YOLO("../model/yolov10x.pt")
+model = YOLO("../model/yolov10n.pt")
 print("YOLO model loaded!")
 
 
 def generate_frames():
     while True:
         success, frame = camera.read()
+        frame = cv2.resize(frame, (640, 480))
         results = model(frame)
         annotated_frame = results[0].plot()
         if not success:
